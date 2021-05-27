@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"name": "Bambi",
+		"icon": "https://cdn.discordapp.com/avatars/778146971663335434/de058e64fe4ce515c3509f8cb90b8e9e.png?size=512"
+	},
+	{
+		"id": 2,
+		"name": "Luffy",
+		"icon": "https://cdn.discordapp.com/attachments/843862370722906112/844398102549889044/ness_icon_by_libertymae_d8f5h6z-fullview.png"
+	},
+	{
+		"id": 3,
+		"name": "Relider",
+		"icon": "https://cdn.discordapp.com/attachments/843862370722906112/844332578055127070/e132b63f4d2761a5e8443ec5f329276e.png"
+	},
+	{
+		"id": 4,
+		"name": "Kala",
+		"icon": "https://cdn.discordapp.com/attachments/843862370722906112/844399405418283018/6tmsP0jHaHhlvPFc5L7s1Hdn616sph3JHnr9p0rmW6vL3yhBPwDVbSdfRiLgEQAAAAASUVORK5CYII.png"
+	}
+]

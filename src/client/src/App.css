@@ -1,0 +1,97 @@
+body {
+    background-color: #000003;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    text-shadow: 0 0 5px #f47fff;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    -webkit-animation: floating-text 1s ease alternate infinite;
+    -moz-animation: floating-text 1s ease alternate infinite;
+    -ms-animation: floating-text 1s ease alternate infinite;
+    -o-animation: floating-text 1s ease alternate infinite;
+    animation: floating-text 1s ease alternate infinite;
+}
+
+@-webkit-keyframes floating-text {
+    0% {
+        -webkit-transform: translateY(.15em);
+    }
+}
+
+@-moz-keyframes floating-text {
+    0% {
+        -moz-transform: translateY(.15em);
+
+    }
+}
+
+@-ms-keyframes floating-text {
+     0% {
+        -ms-transform: translateY(.15em);
+    }
+
+}
+
+@-o-keyframes floating-text {
+    0% {
+        -o-transform: translateY(.15em);
+    }
+}
+
+@keyframes floating-text {
+    0% {
+        transform: translateY(.15em);
+
+    }
+}
+.box-title {
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color:#313131;  
+  padding: 32px;
+  border: 1px solid #111111;
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  background-color: #111111;
+  text-align: left;
+  font-size: 18px;
+  -webkit-box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 480px;
+}
+
+.descr {
+    color: #fff;
+    font-family: Helvetica;
+    text-shadow: 0 0 .5px #fff;
+}
+
+.btn-discord:active {
+  background-color: #B22222;
+  outline: 0;
+}
+.walking {
+  filter: grayscale(80%);
+  width: 10%;
+}
+.side-bar {
+  width: 20%;
+  height: 100%;
+  opacity: .7;
+  background-color: #000003;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2c2f33;
+  border-radius: 10px;
+}

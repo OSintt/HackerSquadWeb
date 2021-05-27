@@ -1,0 +1,48 @@
+
+li > ul > li {
+	list-style: none;
+}
+code {
+	background-color: #2c2f33;
+    border-radius: .4rem;
+    color: #fff;
+    font-size: 90%;
+    font-family: monospace;
+    margin-right: 5px;
+    padding: .2rem .4rem;
+}
+strong {
+	font-family: Helvetica;
+	font-weight: 700;
+}
+.command {
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+.title-docs {
+  	font-family: Helvetica;
+  	color: #fff;
+  	text-shadow: 0 0 5px #f47fff;
+  	font-size: 20px;
+  	text-align: center;
+  	padding: 2.5px 0 0 0; 
+}
+.container-docs {
+  	background: none;
+  	width: 100%;
+  	box-sizing: border-box;
+  	padding: 25px;
+}
+
+@media (max-width: 768px) {
+	.ul-docs {
+		margin: 0;
+	}
+	.title-docs {
+		display: none;
+	}
+	strong {
+		font-weight: 500;
+	}
+}
+

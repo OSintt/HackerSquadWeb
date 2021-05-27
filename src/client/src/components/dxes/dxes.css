@@ -1,0 +1,162 @@
+.title-dox {
+  font-family: Helvetica;
+  color: #fff;
+  text-shadow: 0 0 5px #f47fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 2.5px 0 0 0; 
+}
+.title-dxcomponent {
+  font-family: Helvetica;
+  color: #fff;
+  text-shadow: 0 0 5px #f47fff;
+  font-size: 25px;
+  text-align: center;
+  padding: 2.5px 0 0 0;   
+}
+.subtitle-dox {
+  font-family: Helvetica;
+  color: #fff;
+  text-shadow: 0 0 5px #f47fff;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 0 0 0; 
+}
+.content-dox {
+  padding: 0 45px 25px 45px;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  word-wrap: break-word; 
+  white-space: pre-wrap;
+}
+.box-head-dox {
+  padding: 25px;
+}
+.box-dox {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  overflow : auto;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.carta-dox {
+  margin-bottom: 15px;
+  padding: 25px 15px 0px 15px;
+  border-color: #fff;
+  border: 1px solid white; 
+  border-radius: 5px;
+  word-wrap: break-word;
+  width: 700px;
+}
+.headerCarta-dox {
+  padding: 5px 5px 5px 5px;
+  border: #fff;
+}
+
+small {
+  color: #fff;
+  float: right;
+  font-family: Helvetica;
+}
+
+.h6Author {
+  color: #fff;
+  float: right;
+  font-family: Helvetica;
+}
+.bodyCarta-dox {
+  padding: 1px 5px 0px 5px;
+  border-color: #fff;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: gray;
+}
+
+.center-error {
+  font-family: Helvetica;
+  color: #fff;
+  text-shadow: 0 0 5px #f47fff;
+  text-align: center;
+
+}
+.box-arrow-next {
+  border: 1px solid #fff;
+  padding: 5px;
+  background-color: transparent;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.box-arrow-before {
+  border: 1px solid #fff;
+  padding: 5px;
+  background-color: transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;  
+}
+
+.box-arrow-before:hover, 
+.box-arrow-next:hover {
+  opacity: .6;
+}
+.box-arroy {
+  display: flex;
+}
+
+.error {
+  font-family: Helvetica;
+  color: gray;
+
+}
+.search {
+  margin-top: 1em;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid;
+  transition: border .2s ease-in-out;
+  flex-grow: 1;
+  display: inline-block;
+  flex-direction: column;
+  height: 40px;
+  width: 120px;
+  outline: 0;
+  color: #fff;
+  background-color: transparent;
+  cursor: text;
+  border-color: #fff;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  max-width: 300px;
+  padding: 1px 10px 1px;
+}
+.search:focus {
+  box-shadow: 0 0 3px #fff; 
+}
+
+@media (max-width: 768px) {
+    .carta-dox {
+      max-width: 100%;
+    }
+    .content-dox {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+  .carta-dox {
+    width: 400px;
+  }
+}
+
+
+
+
